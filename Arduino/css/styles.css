@@ -1,0 +1,179 @@
+@charset "utf-8";
+@font-face {
+  font-family: Open Sans,Lucida Grande,Lucida,Verdana,sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,
+    wght@0,300;0,600;0,700;1,400&display=swap);
+}
+
+/*
+
+Site Name: Hobby Columns
+Author: Adam Campeau -0085438-
+Copyright 2021
+---------------------------------
+Typography Guide:
+
+Headings: Barlow Condensed
+Body: Barlow Condensed
+
+---------------------------------
+TABLE OF CONTENTS
+
+0. CSS Reset
+1. Html styles
+2. Body styles
+3. Section styles
+4. Footer styles
+
+*/
+
+/*
+------------------------------------------------
+0. CSS Reset
+    https://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+------------------------------------------------
+*/
+
+/* 1. HTML styles */
+
+html {
+  background-color: #00979d;
+}
+
+body {
+  max-width: 1750px;
+  min-width: 960px;
+}
+.container {
+  overflow: hidden;
+
+}
+
+.sliding-background {
+  background: url("bg.png");
+  height: 100%;
+  width: 5076px;
+  animation: slide 240s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(100px, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+  0%{
+    transform: translate3d(-100px, 0, 0);
+  }
+}
+
+
+/* 2. Body styles*/
+body {
+  /* background-image: url("bg.png"); */
+  width: 100%;
+}
+
+div {
+  border-top: 10px darkgrey solid;
+  border-bottom: 5px darkgrey solid;
+  background-color: rgba(0, 151, 157,0.7);
+  padding: 0px 40px;
+  position:fixed;
+  top: 40px;
+  width: 100%;
+  box-shadow: 3px 40px 5px 5px rgba(0,0,0,0.4);
+}
+
+div > img {
+  position: fixed;
+  right: 0px;
+  top: 11px;
+  opacity: 60%;
+}
+
+/* 3. Section styles*/
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 200px;
+  width: 100%;
+  border-top: 5px darkgrey solid;
+  border-bottom: 20px darkgrey solid;
+  background-color: rgba(0, 151, 157,0.5);
+  box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+section > article {
+  display: flex;
+  flex-flow: column;
+  /* align-items: center; */
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 3px 5px 5px 5px rgba(0,0,0,0.2);
+  border: 10px darkgrey solid;
+  border-bottom: 20px darkgrey solid;
+  border-radius: 40px;
+}
+
+h1, p, ul {
+  font-family: Open Sans,Lucida Grande,Lucida,Verdana,sans-serif;
+  margin-left: 60px;
+  padding-top: 20px;
+  color: #737373;
+  list-style: circle;
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+section > article > ul > li {padding: 5px 10px;}
+
+section > article > h1 {
+  font-family: 'Josefin Sans', sans-serif, 'Arial narrow', sans-serif;
+  font-size: 1.9em;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-left: 0;
+  font-weight: 400;
+  border: 2px darkgrey solid;
+  border-radius: 10px;
+  background-color: rgba(0, 151, 157,0.5);
+  color: rgba(0,0,0,0.6);
+  width: 70%;
+  margin: auto;
+}
+
+article .shadow {
+   -moz-box-shadow:    inset 0 0 15px #000000;
+   -webkit-box-shadow: inset 0 0 15px #000000;
+   box-shadow:         inset 0 0 15px #000000;
+}
+
+section > article > h2 {
+  font-family: Open Sans,Lucida Grande,Lucida,Verdana,sans-serif;
+  color: #737373;
+  font-size: 1.3em;
+  margin-left: 40px;
+  padding-top: 40px;
+  font-weight: 500;
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+/* 4. Footer styles*/
+
+  footer {
+    position: fixed;
+    bottom: 20px;
+  }
+
+  footer > p {font-family: 'arial narrow';}

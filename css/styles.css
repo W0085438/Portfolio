@@ -1,0 +1,764 @@
+@charset "utf-8";
+	
+@font-face {font-family: 'Saira Condensed'; 
+	src: url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap')}
+	
+@font-face {
+    font-family: 'saira_condensedblack';
+    src: url('sairacondensed-black-webfont.woff2') format('woff2'),
+         url('sairacondensed-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensed_condensedbold';
+    src: url('sairacondensed-bold-webfont.woff2') format('woff2'),
+         url('sairacondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedextrabold';
+    src: url('sairacondensed-extrabold-webfont.woff2') format('woff2'),
+         url('sairacondensed-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedextralight';
+    src: url('sairacondensed-extralight-webfont.woff2') format('woff2'),
+         url('sairacondensed-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedlight';
+    src: url('sairacondensed-light-webfont.woff2') format('woff2'),
+         url('sairacondensed-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedmedium';
+    src: url('sairacondensed-medium-webfont.woff2') format('woff2'),
+         url('sairacondensed-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedregular';
+    src: url('sairacondensed-regular-webfont.woff2') format('woff2'),
+         url('sairacondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedsemibold';
+    src: url('sairacondensed-semibold-webfont.woff2') format('woff2'),
+         url('sairacondensed-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensedthin';
+    src: url('sairacondensed-thin-webfont.woff2') format('woff2'),
+         url('sairacondensed-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-image: url(Geometric_WP-01.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: 2200px;
+	margin: auto;
+}
+	
+* { 
+	font-family: 'saira_condensedregular', sans-serif; 
+}
+
+* { 
+	box-sizing: border-box; 
+}
+
+#name {
+	min-width: 280px;
+	font-size: 3.5em;
+	text-align: left;
+	margin-left: 50px;
+	padding-top: 30px;
+}
+
+#heroimg {
+
+	background: linear-gradient(89.58deg, rgba(0, 0, 0, 0.8) 6.22%, rgba(0, 0, 0, 0.2) 99.66%),
+				url(ZeroSuit3_.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: auto;
+	height: 1000px;
+	padding-left: 90px;
+
+}
+
+#intro {
+	text-align: left;
+	font-size: 1.2em;
+	min-width: 35%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.currentPage {
+	color: white;
+}
+
+.notCurrentPage {
+	color: rgba(0,0,0,0.2);
+}
+
+.col-1 {
+	width: 7.418%;
+}
+
+.col-2 {
+	width: 15.83%;
+}
+
+.col-3 {
+	width: 24.25%;
+}
+
+.col-4 {
+	width: 32.66%;
+}
+
+.col-5 {
+	width: 41.08%;
+}
+
+.col-6 {
+	width: 49.5%;
+}
+
+.col-7 {
+	width: 57.91%;
+}
+
+.col-8 {
+	width: 66.33%;
+}
+
+.col-9 {
+	width: 74.75%;
+}
+
+.col-10 {
+	width: 83.16%;
+}
+
+.col-11 {
+	width: 91.58%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.mainimageD { 
+	width: 100%; 
+	height: auto; 
+	object-fit: cover;
+}
+
+.worksimageD, #arduino {
+	object-fit: cover;
+	width: 100%;
+	display: block;
+	padding-bottom: 30px;
+}
+
+#arduino {
+	height: 1000px;
+}
+
+#arduinoimage {
+	display: none;
+}
+
+.aboutimageD { 
+	width: 100%; 
+	height: 400px; 
+	object-fit: cover;
+
+
+}
+
+.mainimageM { 
+	width: 100%; 
+	height: auto; 
+	object-fit: cover; 
+	display: none; 
+}
+
+.menu { 
+	width: 10%; 
+	display: none;
+}
+
+.menu a.hamburger { 
+	width: 44px; 
+	display: none; 
+}
+
+.site-title { 
+
+	font-size: 1.4em; 
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 100px;
+	text-align: right;
+}
+
+.page-title {
+	margin-left: 10%;
+	font-size: 1.2em;
+	height: 30px;
+	margin-top: 50px;
+}
+
+.page-title h3 {
+	height: 50px;
+	width: 75%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#hamburger { 
+	width: 44px; 
+	height: auto; 
+	object-fit: cover;
+}
+
+#mobile-menu { 
+	font-size: 1.5em;
+	margin-left: 5px;
+	color: white; 
+	display: none; 
+}
+
+#navbar {
+	width: 100%;
+
+}
+
+/*#container {
+	margin: 0 auto; 
+	display: block; 
+	min-width: 650px;
+	max-width: 1200px;
+}*/
+
+#nav { 
+	width: 100%;
+	height: 200px;
+	background-color: rgba(0,0,0,95%);
+	color: #fff;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+#nav a { 
+	margin: 5px; 
+	padding: 5px; 
+}
+
+#navlinks { 
+	margin-top: 5px;
+	padding: 0;
+	height: 30px;
+}
+
+ul { 
+	list-style: none;  
+	display: inline; 
+}
+
+li { 
+	display: inline; 
+}
+
+a { 
+	text-decoration: none; 
+	color: white;
+	font-size: 0.7em;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 200;
+	font-size: 1.8em;
+	letter-spacing: 0.2em; 
+	padding-top: 10px; 
+	margin: 0; 
+	color: white; 
+}
+
+#title1 {
+
+}
+
+#title2 {
+	color: rgba(0,0,0,0.5);
+}
+
+#title3 {
+	color: rgba(0,0,0,0.5);
+}
+
+#title4 {
+	color: rgba(0,0,0,0.7);
+}
+
+#main p {
+	font-size: 1.3em;
+	color: silver;
+	padding: 10px;
+}
+
+#about-main {
+	background-color: rgba(0,0,0,0.9);
+	margin-top: 200px;
+}
+
+#about-main p {
+	font-size: 1.3em;
+	color: silver;
+	padding: 10px;
+}
+
+#main { 
+	width: 100%;
+
+
+	height: auto;
+	margin-top: 180px;
+	margin-right: 0;
+	padding-top: 100px;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: rgba(0,0,0,0.9);
+}
+
+/*#main p > p{
+	color: silver;
+}*/
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: rgba(0,0,0,0.5);
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid transparent;
+	width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#mid {
+	max-width: 60%;
+
+}
+
+.slide-viewer {
+	position: relative;
+	overflow: hidden;
+	height: 430px;}
+.slide-group {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	}
+.slide {
+	width: 100%;
+	height: 100%;
+	display: none;
+
+}
+.slide:first-child {
+	display: block;}
+
+.col-12 { 
+	height: auto;
+}
+
+[class*="col-"] { 
+	font-family: 'saira_condensedthin', sans-serif;
+	height: auto; 
+	margin: 1% 0 1% 1%; 
+	display: block; 
+}
+
+#megaboy {
+	margin-right: 100px;
+}
+
+#fanform {
+	color: white;
+	width: 700px;
+	height: 1000px;
+	padding: 30px;
+	margin: auto;
+	padding-top: 200px;
+}
+
+#form-deets {
+	margin: auto;
+}
+
+#fanform button {
+	width: 40%;
+	height: 50px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	border-radius: 50%;
+	font-size: 1.5em;
+
+	background-color: #333333;
+}
+
+#fanform button:hover {
+	background-color: rgba(0,255,100, 0.3);
+}
+
+#fanform p {
+	width: 100%;
+	font-size: 1.5em;
+}
+
+#spacer {
+	height: 200px;
+	background-color: black;
+}
+
+#thanks {
+	height: 400px;
+	font-size: 1.3em;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+#thanks a {
+	color: lightblue;
+}
+
+#guide {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+#fanform p {
+	text-align: center;
+}
+
+[class*="col-"]:first-child { 
+	margin-left: 0; 
+}
+
+[class*="col-"] {
+	float: left; 
+	padding: 15px;
+}
+
+/*.row::after {
+	content: "";
+	clear: both; 
+	display: table; 
+	margin: 0 0 10px 0; 
+}*/
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 0.7em; 
+	letter-spacing: 1.1em; 
+	text-align: center;
+	margin: auto;
+	background-color: white;
+	padding-top: 10px;
+}
+
+#resume {
+	max-width: 80%;
+	margin: auto;
+}
+
+#resume img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.pages {
+	margin-bottom: 20px;
+}
+
+#resume-frame {
+	margin-left: 10%;
+	padding-bottom: 200px;
+
+}
+
+#resume-comment {
+	margin-top: 180px;
+	margin-left: 10%;
+}
+
+#samus {
+	margin-bottom: 60px;
+	border-radius: 0;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+	#carousel {
+		display: none;
+	}
+
+	#arduinoimage {
+		display: block;
+	}
+
+	.page-title {
+		display: none;
+	}
+}
+			
+@media screen and (max-width: 639px) {
+
+
+
+	.mainimageD { 
+		display: none; 
+	}
+	
+	.aboutimageD { 
+
+	}
+	
+	.mainimageM { 
+		display: none;
+	}
+	
+	#nav { 
+		height: 150px;
+		justify-content: flex-start;
+		min-width: 300px;
+	}
+
+	#name {
+		margin: auto;
+	}
+
+	#mobile-menu {
+		background-color: rgba(0,0,0, 0.7);
+	}
+	
+	#mobile-menu li, a { 
+		width: 100%; 
+		height: 44px; 
+		display: block; 
+	}
+	
+	#navman {
+		display: none;
+	}
+	
+	#directions p {
+		display: none;
+	}
+	
+	#directions button {
+		height: auto;
+	}
+	
+	.menu { 
+		height: auto; 
+		display: flex; 
+		align-content: center; 
+	}
+	
+	.menu a.hamburger { 
+		height: 29.44px; 
+		display: block; 
+	}
+	
+	.site-title { 
+		display: none; 
+	}
+	
+
+	
+	#navlinks { 
+		display: none; 
+	}
+	
+	#mobile-menu { 
+		display: none; 
+	}
+	
+	#container { 
+		width: 100% 
+	}
+	
+	#main { 
+
+		margin: auto;
+		padding-top: 250px;
+		min-width: 300px;
+		height: auto; 
+
+	}
+
+	#intro {
+		margin: auto;
+		width: 100%;
+	}
+
+	#worksintro {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	
+	[class*="col-"] { 
+		width: 100%; 
+		height: auto; 
+		margin: 1%; 
+	}
+	
+	.col-12 { 
+		width: 100%; 
+		height: 150px; 
+		background-color: #f00; 
+		display: none; 
+	}
+
+	#heroimg {
+		padding-left: 20px;
+	}
+
+	#heroframe {
+		display: none;
+	}
+
+	.close {
+		position: fixed;
+		top: 20px;
+		background-color: black;
+		width: 100%;
+		padding-top: 10px;
+
+	}
+	.modal-content {
+
+		width: 100%;
+	}
+
+	#resume-frame {
+		height: auto;
+
+	}
+
+	#resume-comment {
+		margin-left: 0;
+	}
+
+	#resume {
+		width: 100%;
+		padding-right: 5%;
+	}
+
+	#resume img {
+		object-fit: cover;
+	}
+
+	#about-main {
+		height: auto;
+	}
+	
+	#fanform {
+		width: 100%;
+		padding-left: 0;
+
+	}
+	
+	#fanform button {
+		height: auto;
+		margin-left: 165px;
+	}
+
+	#ts {
+		display: none;
+	}
+
+	footer { 
+		letter-spacing: 0.5em; 
+
+	}
+}
